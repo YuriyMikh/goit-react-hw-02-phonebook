@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 import { StyledButton, StyledLi, StyledUl } from './ContactList.styled';
 
-export const ContactList = ({ contacts=[], deleteContact }) => {
+export const ContactList = ({ contacts = [], deleteContact }) => {
   return (
     <StyledUl>
       {contacts.map(item => (
